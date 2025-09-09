@@ -1,0 +1,106 @@
+{
+  "app": "Next-Generation To-Do App",
+  "style": {
+    "theme": "futuristic, minimal, premium",
+    "fonts": ["Inter", "Atkinson Hyperlegible"],
+    "colors": {
+      "primary": "#4F46E5",
+      "accent": ["#7C3AED", "#22D3EE"],
+      "background": "soft gradient with neon glow",
+      "text": "#FFFFFF"
+    },
+    "ui": {
+      "corners": "2xl rounded",
+      "effects": ["glassmorphism", "soft shadows", "hover glow"],
+      "animations": ["smooth transitions", "task checkmark animations"]
+    }
+  },
+  "screens": [
+    {
+      "name": "Splash",
+      "elements": [
+        { "type": "logo", "style": "glowing center" },
+        { "type": "text", "value": "Organize Smarter. Live Better.", "style": "tagline" },
+        { "type": "background", "style": "animated gradient waves" }
+      ]
+    },
+    {
+      "name": "Onboarding",
+      "slides": [
+        { "title": "Plan effortlessly", "illustration": "tasks aligning" },
+        { "title": "Focus on what matters", "illustration": "productivity icons" },
+        { "title": "Achieve more daily", "illustration": "calendar/task board preview" }
+      ],
+      "navigation": ["Skip", "Next"]
+    },
+    {
+      "name": "Login",
+      "elements": [
+        { "type": "card", "children": [
+          { "type": "input", "label": "Email" },
+          { "type": "input", "label": "Password", "secure": true },
+          { "type": "button", "label": "Login", "style": "primary" },
+          { "type": "button", "label": "Signup", "style": "outline" },
+          { "type": "social-buttons", "options": ["Google", "Apple"] },
+          { "type": "text", "value": "Continue as Guest", "style": "subtle" }
+        ]}
+      ]
+    },
+    {
+      "name": "Home/Dashboard",
+      "elements": [
+        { "type": "header", "value": "Good Morning, Abhishek 👋" },
+        { "type": "input", "placeholder": "Quick add task..." },
+        { "type": "tabs", "options": ["Today", "Upcoming", "Completed", "All"] },
+        { "type": "task-cards", "properties": ["checkbox", "priority tags", "swipe actions"] },
+        { "type": "floating-button", "icon": "+" }
+      ]
+    },
+    {
+      "name": "Task Details",
+      "elements": [
+        { "type": "modal", "children": [
+          { "type": "input", "label": "Title" },
+          { "type": "textarea", "label": "Description" },
+          { "type": "datepicker", "label": "Due Date" },
+          { "type": "dropdown", "label": "Priority", "options": ["High", "Medium", "Low"] },
+          { "type": "subtasks", "addOption": true },
+          { "type": "reminder", "options": ["5m", "1h", "1d"] },
+          { "type": "button", "label": "Save", "style": "primary glow" },
+          { "type": "button", "label": "Cancel", "style": "outline" }
+        ]}
+      ]
+    },
+    {
+      "name": "Calendar & Timeline",
+      "elements": [
+        { "type": "calendar", "mode": "monthly", "highlight": "due dates" },
+        { "type": "timeline", "draggableTasks": true },
+        { "type": "toggle", "options": ["List View", "Timeline View"] }
+      ]
+    },
+    {
+      "name": "Categories/Projects",
+      "elements": [
+        { "type": "cards", "properties": ["project title", "progress bar", "icon"] },
+        { "type": "button", "label": "Add New Category", "style": "dashed" }
+      ]
+    },
+    {
+      "name": "Profile & Settings",
+      "elements": [
+        { "type": "avatar", "label": "User Profile" },
+        { "type": "toggle", "label": "Dark Mode" },
+        { "type": "switches", "label": "Notifications" },
+        { "type": "integrations", "options": ["Google Calendar", "Notion"] },
+        { "type": "button", "label": "Logout", "style": "danger" }
+      ]
+    },
+    {
+      "name": "Notifications",
+      "elements": [
+        { "type": "notification-card", "example": "⏰ Meeting at 3 PM — Task due soon.", "style": "slide-in futuristic" }
+      ]
+    }
+  ]
+}
