@@ -1,0 +1,64 @@
+Design a **futuristic, minimal, and premium UI** for a **next-generation To-Do productivity app**.  
+The app should feel sleek, modern, and highly intuitive.  
+Use a clean font like "Inter" or "Atkinson Hyperlegible" for readability, with soft gradients, rounded corners, and a futuristic neon-accent color palette (blues, purples, and subtle greens).  
+
+⚡ Structure & Pages to Design:  
+
+1. **Splash / Welcome Screen**  
+   - App logo with animated glow effect.  
+   - Tagline: "Organize Smarter. Live Better."  
+   - Elegant background with soft gradient waves.  
+
+2. **Onboarding Screens (3 slides)**  
+   - Slide 1: "Plan effortlessly" with an illustration of tasks aligning themselves.  
+   - Slide 2: "Focus on what matters" with minimal productivity icons.  
+   - Slide 3: "Achieve more daily" with a futuristic calendar/task board preview.  
+   - Skip / Next buttons at bottom.  
+
+3. **Login / Signup Page**  
+   - Clean card-style layout in the center.  
+   - Email, password, and social login buttons (Google, Apple).  
+   - Modern gradient button with glowing hover state.  
+   - Option: "Continue as Guest" in subtle text.  
+
+4. **Home / Dashboard Page**  
+   - Personalized greeting: "Good Morning, Abhishek 👋"  
+   - Quick add task input box with a floating "+" button.  
+   - Tabs for: Today | Upcoming | Completed | All.  
+   - Task cards with checkboxes, priority color tags (High, Medium, Low), and swipe gestures (complete/edit/delete).  
+   - Floating action button (FAB) for quick task creation.  
+
+5. **Task Details Page**  
+   - Full screen modal/card for task editing.  
+   - Fields: Title, Description, Due date, Priority, Add subtasks, Add reminder.  
+   - Save and Cancel buttons styled with neon glow.  
+
+6. **Calendar & Timeline View**  
+   - Monthly calendar with highlighted due dates.  
+   - Daily timeline with draggable tasks.  
+   - Option to switch between list and timeline mode.  
+
+7. **Categories / Projects Page**  
+   - Cards or tiles for different projects (Work, Personal, Fitness, etc.).  
+   - Each project card shows progress (completed tasks vs total).  
+   - Option to add new categories with custom icons/colors.  
+
+8. **Profile & Settings Page**  
+   - User avatar and profile info.  
+   - Dark Mode toggle.  
+   - Notification settings.  
+   - Integration options (Google Calendar, Notion, etc.).  
+   - Logout button at the bottom.  
+
+9. **Notifications / Reminders UI**  
+   - Slide-in futuristic notification design.  
+   - Example: "⏰ Meeting at 3 PM — Task due soon."  
+
+🎨 **Design Style Guidelines**:  
+- Rounded corners (2xl).  
+- Soft shadows, glassmorphism effects where suitable.  
+- Consistent spacing and grid layout.  
+- Futuristic gradient accents on buttons and highlights.  
+- Smooth animations for transitions, hover states, and task completion checkmarks.  
+
+The app should feel like a **blend of productivity + futuristic aesthetics**, making it both functional and visually exciting.  
